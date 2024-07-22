@@ -41,6 +41,10 @@ class ServiceFactory {
       return http.get(this.END_POINT, this.returnToken)
     }
 
+    static getAllActive() {
+      return http.get(`${this.END_POINT}all-active`, this.returnToken)
+    }
+
     static getById(id) {
       return http.get(this.END_POINT + id, this.returnToken)
     }

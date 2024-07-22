@@ -31,6 +31,7 @@ tagVariant
 
 */
 import dashboard from './dashboard'
+import purchases from './purchases'
 // import appsAndPages from './apps-and-pages'
 // import others from './others'
 // import chartsAndMaps from './charts-and-maps'
@@ -38,4 +39,4 @@ import dashboard from './dashboard'
 // import formAndTable from './forms-and-table'
 
 // Array of sections
-export default [...dashboard]// , ...appsAndPages, ...uiElements, ...formAndTable, ...chartsAndMaps, ...others]
+export default [...dashboard, ...purchases]// , ...appsAndPages, ...uiElements, ...formAndTable, ...chartsAndMaps, ...others]
