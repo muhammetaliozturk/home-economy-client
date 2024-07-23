@@ -1,8 +1,8 @@
 export default [
   {
-    path: '/new-puchase',
-    name: 'new-purchase',
-    component: () => import('@/views/purchases/purchase-list/Purchase.vue'),
+    path: '/add-multiple-purchase',
+    name: 'add-multiple-purchase',
+    component: () => import('@/views/purchases/add-multiple-purchase/MultiplePurchase.vue'),
   },
   {
     path: '/purchase-list',

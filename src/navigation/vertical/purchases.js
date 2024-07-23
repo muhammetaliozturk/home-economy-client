@@ -4,7 +4,7 @@ export default [
   },
   {
     title: 'Harcama Ekle',
-    route: 'new-purchase',
+    route: 'add-multiple-purchase',
     icon: 'RadioIcon',
   },
   {
